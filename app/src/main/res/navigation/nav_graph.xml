@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/shakeFragment">
+    <fragment
+        android:id="@+id/shakeFragment"
+        android:name="com.red.chen.datashake.ShakeFragment"
+        android:label="fragment_shake"
+        tools:layout="@layout/fragment_shake" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.red.chen.datashake.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/debugFragment"
+        android:name="com.red.chen.datashake.DebugFragment"
+        android:label="fragment_debug"
+        tools:layout="@layout/fragment_debug" />
+</navigation>
